@@ -1,6 +1,6 @@
 # 🚀 File Parser LLM using LangChain + OpenAI
 
-This project demonstrates a simple **File Parser LLM application** that reads the contents of a file (for example, a `.txt` or `.md` file) and uses a Language Model (LLM) to summarise or extract information. It leverages **LangChain** with the **OpenAI API** for natural language processing. This is just a testing prototype to be used for another industry project I am working on, so it is very unfinished on this repository.
+This project demonstrates a simple **File Parser LLM application** that reads the contents of a file (currently for PDFs) and uses an LLM to summarise or extract information. It leverages **LangChain** with the **OpenAI API** for natural language processing. This is just a testing prototype to be used for another industry project I am working on, so it is very unfinished on this repository.
 
 ---
 # Setting up Environment Variables
