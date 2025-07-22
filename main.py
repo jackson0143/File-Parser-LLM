@@ -12,7 +12,6 @@ from pydantic import BaseModel, Field
 
 load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-
 llm = ChatOpenAI(
     model="gpt-4o-mini",
     openai_api_key=OPENAI_API_KEY,
@@ -145,4 +144,4 @@ if __name__ == "__main__":
     input_file_path = "fake_resume.pdf"
     form_file_path = "Fillable fake_application_form.pdf"
     output_path = "filled_form.pdf"
-    process_pdf(input_file_path, form_file_path, output_path)
+    print(process_pdf(input_file_path, form_file_path, output_path))
